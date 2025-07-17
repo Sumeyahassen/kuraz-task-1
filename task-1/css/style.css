@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.header-wrapper {
+  display: flex;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 20px 0;
+
+  h1 {
+    color: blue;
+    font-size: 28;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+}
+.sub-contant-container {
+  display: flex;
+  margin-left: 40px;
+}
+.sub-contant-1 {
+  margin-right: 40px;
+  cursor: alias;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.sub-contant-2 {
+  margin-right: 40px;
+  cursor: alias;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.search-bar-contaner {
+  margin-right: 40px;
+}
+.search-bar-contaner input {
+  padding: 10px 200px;
+  border: whitesmoke 8px solid;
+  background-color: whitesmoke;
+  text-align: start;
+  transition: border-color 0.3s;
+}
+.search-bar-contaner input ::checkmark {
+  border: rgb(92, 92, 251) ;
+}
+
+.buttun-wrape {
+  text-align: right;
+  margin-right: 40px;
+  display: flex;
+}
+.crate-butten {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.login-button {
+  padding-left: 60px;
+}
+
+/* Button styles for login-button */
+.login-button button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
